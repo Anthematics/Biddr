@@ -1,5 +1,5 @@
 class AddNameToCompany < ActiveRecord::Migration[5.1]
-  def change
-    add_column :companies, :type, :string
-  end
+	def change
+		add_column :companies, :name, :string
+	end
 end
