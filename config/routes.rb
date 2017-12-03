@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :welcomes
+  resources :sessions
   resources :companies
   resources :orders
   resources :products
